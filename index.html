@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portofolio Adira</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <script src="./js/script.js" defer></script>
+</head>
+<body>
+
+  <header>
+    <nav class="navbar">
+      <a href="#beranda" class="logo">ADIRA<span>.</span></a>
+
+      <button class="menu-toggle" id="menuToggle"
+        aria-label="Buka menu" aria-expanded="false">☰</button>
+
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="#beranda">Beranda</a></li>
+        <li><a href="#profil">Profil</a></li>
+        <li><a href="#project">Project</a></li>
+        <li><a href="#kontak">Kontak</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="beranda">
+      <div class="hero-content">
+        <p class="greeting">HALO, SELAMAT DATANG!</p>
+        <h1>Portofolio <span>Adira</span></h1>
+        <h2>Pelajar yang Kreatif dan Aktif</h2>
+        <p>
+          Selamat datang di website portofolio saya.
+          Di sini kamu bisa melihat profil dan berbagai
+          kegiatan yang pernah saya ikuti.
+        </p>
+        <a href="#project" class="btn">Lihat Project</a>
+      </div>
+
+      <div class="hero-decoration">A</div>
+    </section>
+
+    <section class="profile section" id="profil">
+      <div class="section-heading">
+        <p>TENTANG SAYA</p>
+        <h2>Profil Saya</h2>
+      </div>
+
+      <div class="profile-card">
+        <img src="./images/profile.jpg"
+             alt="Foto profil Adira"
+             class="profile-img">
+
+        <div class="profile-info">
+          <h3>Adira</h3>
+          <p class="profile-label">Pelajar</p>
+          <p>
+            Halo! Nama saya Adira. Saya adalah seorang pelajar
+            yang senang mengikuti kegiatan kreatif dan
+            kegiatan bersama teman-teman. Melalui portofolio
+            ini, saya ingin memperkenalkan pengalaman saya
+            dalam kegiatan tari, fashion show, dan Pramuka.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="projects section" id="project">
+      <div class="section-heading">
+        <p>PENGALAMAN SAYA</p>
+        <h2>Project Saya</h2>
+        <span>Berikut tiga kegiatan yang saya tampilkan.</span>
+      </div>
+
+      <div class="project-grid">
+        <article class="project-card">
+          <img src="./images/tari.jpg" alt="Kegiatan tari">
+          <div class="project-info">
+            <span class="project-number">PROJECT 01</span>
+            <h3>Tari</h3>
+            <p>
+              Kegiatan seni tari yang melatih kreativitas,
+              kekompakan, dan kepercayaan diri.
+            </p>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <img src="./images/fashion-show.jpg"
+               alt="Kegiatan fashion show">
+          <div class="project-info">
+            <span class="project-number">PROJECT 02</span>
+            <h3>Fashion Show</h3>
+            <p>
+              Kegiatan fashion show untuk mengembangkan
+              keberanian, penampilan, dan rasa percaya diri.
+            </p>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <img src="./images/pramuka.jpg" alt="Kegiatan Pramuka">
+          <div class="project-info">
+            <span class="project-number">PROJECT 03</span>
+            <h3>Pramuka</h3>
+            <p>
+              Kegiatan Pramuka yang mengajarkan kedisiplinan,
+              tanggung jawab, kerja sama, dan kemandirian.
+            </p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="contact section" id="kontak">
+      <div class="section-heading">
+        <p>HUBUNGI SAYA</p>
+        <h2>Terima Kasih!</h2>
+      </div>
+      <p>
+        Terima kasih telah mengunjungi portofolio saya.
+        Semoga kamu menikmati karya dan kegiatan saya.
+      </p>
+      <a href="#beranda" class="btn">Kembali ke Atas ↑</a>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span id="year"></span> Portofolio Adira. Dibuat dengan 💜</p>
+  </footer>
+
+</body>
+</html>
